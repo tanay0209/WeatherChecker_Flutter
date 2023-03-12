@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-TextStyle infoTextStyle = TextStyle(fontSize: 20, fontWeight: FontWeight.w500);
+TextStyle infoTextStyle = const TextStyle(fontSize: 20, fontWeight: FontWeight.w500);
 
 
 Widget infoBox(String title, IconData infoIcon, String information) {
